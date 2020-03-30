@@ -1,0 +1,41 @@
+{
+	"plugins": [
+		"splitter", 
+		"chapter-fold", 
+		"code",
+		"-lunr", 
+		"-search", 
+		"search-pro",
+		"advanced-emoji",
+		"github",
+		"-sharing",
+		"sharing-plus",
+		"lightbox",
+		"ancre-navigation",
+		"klipse",
+		"pageview-count",
+		"auto-scroll-table",
+		"custom-favicon"
+	],
+	"pluginsConfig": {
+		"github": {
+				"url": "https://github.com/Zzhiren"
+			},
+		"favicon": "../favicon.ico",
+		"sharing": {
+			"douban": false,
+			"facebook": false,
+			"google": true,
+			"pocket": false,
+			"qq": false,
+			"qzone": true,
+			"twitter": false,
+			"weibo": true,
+		"all":
+			[
+					"douban", "facebook", "google", "instapaper", "linkedin","twitter", "weibo", 
+					"messenger","qq", "qzone","viber","whatsapp"
+			]
+		}
+	}
+}
